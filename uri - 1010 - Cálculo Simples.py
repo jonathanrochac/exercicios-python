@@ -1,0 +1,10 @@
+cod1,quant1,v1 = input().split()
+cod2,quant2,v2 = input().split()
+cod1 = int(cod1)
+quant1 = int(quant1)
+v1 = float(v1)
+cod2 = int(cod2)
+quant2 = int(quant2)
+v2 = float(v2)
+
+print('VALOR A PAGAR: R$ {:.2f}'.format((v1*quant1)+(v2*quant2)))
